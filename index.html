@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+    <div id="title">
+        <p>Conway's Game of Life</p>
+    </div>
+    <div id='buttons'>
+        <p class="name">Speed: </p>
+        <div class="rangeslider">
+            <input type="range" min="100" max="2000" value="1000" class="myslider" id="speed">
+        </div>
+        <p class="name">Rows: <span id="rowval"></span></p>
+        <div class="rangeslider">
+            <input type="range" min="10" max="100" value="17" class="myslider" id="row">
+        </div>
+        <p class="name">Cols: <span id="colval"></span></p>
+        <div class="rangeslider">
+            <input type="range" min="10" max="100" value="37" class="myslider" id="col">
+        </div>
+        <button id='start'>play</button>
+        <button id='stop'>pause</button>
+        <button id='clear'>clear</button>
+    </div>
+    
+    <div class="grid">
+    </div>
+
+
+</body>
+
+</html>
